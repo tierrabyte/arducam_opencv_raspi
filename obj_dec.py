@@ -30,8 +30,7 @@ def ORB_detector(new_image, image_template):
 cap = cv2.VideoCapture(0)
 
 # Load our image template, this is our reference image
-image_template = cv2.imread('phone.jpg', 0) 
-# image_template = cv2.imread('images/kitkat.jpg', 0) 
+image_template = cv2.imread('/home/ecam/RaspberryPi/arducam_opencv_raspi/capillary_bridge_sample.png', 0) 
 
 while True:
     # Get webcam images
